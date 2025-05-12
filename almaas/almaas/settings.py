@@ -20,7 +20,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure--82!6m()b27w(x=!+85@%*^f**9p6q!o@flk9mos&lv3n6ac$&'
+SECRET_KEY = 'django-insecure-tm_9nh6kav89tod)ib&3rnq-5z!j4*w@0x2b)_p958*0t_pft('
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -116,7 +116,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/5.1/howto/static-files/
 
 STATIC_URL = 'static/'
-STATICFILES_DIRS=[os.path.join(BASE_DIR,'calcapp/static')]
+STATICFILES_DIRS=[os.path.join(BASE_DIR,'bookapp/static')]
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
 
